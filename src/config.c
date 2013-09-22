@@ -29,7 +29,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <time.h>
-#include "config.h"
+#include "../include/config.h"
 
 void gbConfigLoad( atree_t *config, char *filename ){
 	FILE *fp = fopen( filename, "rt" );

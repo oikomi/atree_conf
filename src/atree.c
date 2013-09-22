@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-#include "atree.h"
+#include "../include/atree.h"
 
 // This is O(N) since the at->nodes array is not sorted.
 static anode_t *at_find_next_node( atree_t *at, unsigned char ascii ){

@@ -26,7 +26,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-#include "llist.h"
+#include "../include/llist.h"
 
 llist_t *ll_prealloc( size_t elements ){
 	llist_t *list = ll_create();
